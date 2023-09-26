@@ -1,0 +1,15 @@
+user=input('Enter your number: ')
+print('Your multiplication table is:')
+
+for i in range(1,11):
+    print(f'{int(user)} x {i} = {int(user*i)}')
+
+#Or
+# user = input('Enter your number:')
+# print('You multiplication table is:')
+#
+# try:
+#     for i in range(1,11):
+#         print(f'{int(user)} x {i} = {int(user)*i}')
+# except Exception as e:
+#     print(e)
